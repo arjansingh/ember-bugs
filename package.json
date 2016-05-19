@@ -10,6 +10,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
+    "fastboot": "ember fastboot --serve-assets",
     "test": "ember test"
   },
   "repository": "",
