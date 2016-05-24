@@ -11,6 +11,12 @@ Router.map(function() {
       this.route('when-you-vist-this-route');
       this.route('should-render-this-content');
     });
+
+    this.route('native-array', function() {});
+
+    this.route('native-array-extensions-missing', function() {
+      this.route('when-najax-returns-data-with-an-array');
+    });
   });
 });
 
