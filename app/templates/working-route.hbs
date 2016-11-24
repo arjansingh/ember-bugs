@@ -1,0 +1,10 @@
+<h1>This route should load normally</h1>
+
+{{#each model as |unit|}}
+<ol>
+  <li>{{unit.foo}}</li>
+  <li>{{unit.baz}}</li>
+</ol>
+{{/each}}
+
+{{outlet}}

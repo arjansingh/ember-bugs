@@ -18,6 +18,7 @@ Router.map(function() {
       this.route('when-najax-returns-data-with-an-array');
     });
   });
+  this.route('working-route');
 });
 
 export default Router;
