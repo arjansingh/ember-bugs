@@ -20,6 +20,7 @@ Router.map(function() {
     });
   });
   this.route('working-route');
+  this.mount('an-ember-engine');
 });
 
 export default Router;
