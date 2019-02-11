@@ -2,7 +2,8 @@ import Ember from 'ember';
 import config from './config/environment';
 
 const Router = Ember.Router.extend({
-  location: config.locationType
+  location: config.locationType,
+  routeURL: config.routeURL
 });
 
 Router.map(function() {
@@ -19,6 +20,7 @@ Router.map(function() {
     });
   });
   this.route('working-route');
+  this.mount('an-ember-engine');
 });
 
 export default Router;
